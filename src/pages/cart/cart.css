@@ -1,0 +1,56 @@
+.cartItems{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.cartItem{
+    border: solid gray 1px;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 1px 4px 4px rgb(133, 124, 124);
+}
+.description{
+    padding-left: 20px;
+}
+.ProductName{
+
+    font-size: 30px;
+}
+img{
+    width: 100px;
+}
+.checkout button{
+    margin: 10px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.checkout button:hover{
+    color: black;
+    background-color: white;
+}
+.checkout button{
+    font-size: 20px;
+}
+.countHandler button{
+    width: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+.countHandler input{
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding-top: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.navbar{
+   background-color: black;
+   list-style: none;
+   border-radius: 3px;
+   width: 80vw;
+   margin: auto;
+   box-shadow: 1px 4px 4px rgb(133, 124, 124);
+}
+.links{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a{
+    color: white;
+    font-weight:  bold;
+    text-decoration: none;
+    font-size: 24px;
+}
